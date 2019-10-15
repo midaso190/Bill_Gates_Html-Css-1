@@ -24,7 +24,7 @@ p.antwoord {
 table.prijslijst{
   background-color: maroon;
   color: orange;
-  border: 3px solid gray
+  border: 3px solid gray;
   border-collapse: collapse;
 }
 table.prijslijst td {
@@ -36,6 +36,7 @@ table.prijslijst th {
 }
 
 h1{
+  padding: 10px;
   color: #FFFFFF;
   background-color: #2B2D2F;
   border: 4px solid white;
@@ -54,7 +55,6 @@ h2{
   font-style: italic;
 }
 
-}
 p {
   text-align: justify;
   line-height: 25px;
