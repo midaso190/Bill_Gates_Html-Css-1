@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   color: maroon;
-  background-color: yellow;
+  background-color: #ffff00;
 }
 p.vraag {
 
@@ -11,14 +11,23 @@ ul.mahass li{
   color: black;
 }
 ul.mahass{
-  background-color: black;
+  background-color: #551A8B;
   list-style: inside circle none;
 }
-p.antwoord {
-  color: gold;
-  background-color: gold;
+div.antwoord {
+  color: #a21212;
+  background-color: #a21212;
+  border-radius: 5px;
+  border: #a21212 solid 5px;
 }
 .antwoord:hover {
+  color: white;
+}
+div.hoi {
+  color: yellow;
+  background-color: yellow;
+}
+.hoi:hover {
   color: black;
 }
 table.prijslijst{
@@ -34,7 +43,14 @@ table.prijslijst th {
   background-color: white;
   color: black;
 }
-
+img{
+  border: 4px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+iframe{
+  border: 4px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
 h1{
   padding: 11px;
   color: #FFFFFF;
@@ -54,6 +70,27 @@ h2{
   font-family: Georgia, "Comic sans";
   font-style: italic;
 }
+.middle{
+  text-align: center;
+}
+.frik{
+  display: block;
+  width: 100% height: 100%;
+}
+.left {
+  width: 40%;
+  float: left;
+  background-color: #FFFFAA;
+  border: 4px solid #FFFFAA;
+  border-radius: 15px;
+}
+.right {
+  width: 40%;
+  float: right;
+  background-color: #FFFFAA;
+  border: 4px solid #FFFFAA;
+  border-radius: 15px;
+}
 
 p {
   text-align: justify;
@@ -62,13 +99,20 @@ p {
 a:link {
   text-decoration: none;
 }
-
 .menu
 {
   display: flex;
   list-style: none;
+  border-radius: 15px;
+  list-style-type: none;
+  border: #00ff66 solid 5px;
+  text-align : center;
+  background-color: #99ff99;
+  width: 90%;
 }
-
 .menu li {
+  margin-left: 85px;
+  padding: 0;
   margin-right: 50px;
+  text-align : center;
 }
