@@ -20,6 +20,18 @@ div.antwoord {
   border-radius: 5px;
   border: #a21212 solid 5px;
 }
+div.antwoord2 {
+  color: yellow;
+  background-color: yellow;
+  border-radius: 5px;
+  border: yellow solid 5px;
+}
+.antwoord:hover {
+  color: white;
+}
+.antwoord2:hover {
+  color: black;
+}
 .antwoord:hover {
   color: white;
 }
